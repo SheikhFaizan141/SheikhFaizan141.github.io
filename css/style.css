@@ -114,6 +114,10 @@ body {
 #header {
     background-color: #fff;
     padding: 0 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: transparent;
 }
 
 #header div {
@@ -247,7 +251,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 0.5rem;
-    background-color: #a7a7a7;
+    /* background-color: #a7a7a7; */
     padding: 1rem;
 } 
 
@@ -261,8 +265,8 @@ body {
 .social-links {
     display: flex;
     flex-flow: column;
-    background-color: #919191;
-    box-shadow: 0 0 4px black;
+    /* background-color: #919191; */
+    /* box-shadow: 0 0 4px black; */
     border-radius: 3px;
 }
 
